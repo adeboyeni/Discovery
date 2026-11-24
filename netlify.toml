@@ -1,0 +1,3 @@
+[build]
+  command = "node scripts/check-netlify-env.cjs && npm ci && npm run build"
+  publish = ".next"
